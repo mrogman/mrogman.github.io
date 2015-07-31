@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta name="layout" content="main"/>
+        <asset:stylesheet src="application.css"/>
         <title>Welcome to Grails</title>
         <style type="text/css" media="screen">
             #status {
@@ -94,7 +95,7 @@
                 <li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
                 <li>Domains: ${grailsApplication.domainClasses.size()}</li>
                 <li>Services: ${grailsApplication.serviceClasses.size()}</li>
-                <li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>                    
+                <li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
             </ul>
             <h1>Installed Plugins</h1>
             <ul>
