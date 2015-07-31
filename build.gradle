@@ -14,6 +14,7 @@ buildscript {
 
 plugins {
     id "io.spring.dependency-management" version "0.5.2.RELEASE"
+    id "com.siprell.plugins.bootstrap-framework" version "1.0.2"
 }
 
 version "0.1"
