@@ -30,3 +30,8 @@
 #IntelliJ
 .idea/
 mrc.iml
+
+.project
+.classpath
+grailsw
+grailsw.bat
