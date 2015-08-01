@@ -67,6 +67,7 @@ grails.project.dependency.resolution = {
         runtime ":hibernate4:4.3.10" // or ":hibernate:3.6.10.18"
         runtime ":database-migration:1.4.0"
         runtime ":jquery:1.11.1"
+        runtime ":foundation:5.2.2"
 
         // Uncomment these to enable additional asset-pipeline capabilities
         provided ':sass-asset-pipeline:2.3.1'
