@@ -29,7 +29,7 @@
 
 #IntelliJ
 .idea/
-mrc.iml
+*.iml
 
 .project
 .classpath
