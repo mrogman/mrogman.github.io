@@ -51,6 +51,7 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.29'
         runtime 'org.postgresql:postgresql:9.4-1201-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
+        compile 'com.bertramlabs.plugins:ember-asset-pipeline:2.0.5'
     }
 
     plugins {
@@ -61,7 +62,8 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.8'
         // asset-pipeline 2.0+ requires Java 7, use version 1.9.x with Java 6
-        compile ":asset-pipeline:2.2.3"
+        compile ":asset-pipeline:2.4.3"
+        compile ":ember-asset-pipeline:1.7.0"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.10" // or ":hibernate:3.6.10.18"
@@ -70,8 +72,9 @@ grails.project.dependency.resolution = {
         runtime ":foundation:5.2.2"
 
         // Uncomment these to enable additional asset-pipeline capabilities
-        provided ':sass-asset-pipeline:2.3.1'
-        provided ":coffee-asset-pipeline:2.0.7"
+        compile ':sass-asset-pipeline:2.3.1'
+        compile ":coffee-asset-pipeline:2.0.7"
+        compile ":handlebars-asset-pipeline:2.1.4"
         //compile ":less-asset-pipeline:1.10.0"
         //compile ":handlebars-asset-pipeline:1.3.0.3"
 

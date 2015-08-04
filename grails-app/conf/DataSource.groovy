@@ -23,7 +23,7 @@ environments {
             pooled = true
             driverClassName = "org.postgresql.Driver"
             dialect = "org.hibernate.dialect.PostgreSQLDialect"
-            username = "postgres"
+            username = "Matt"
             password = "password"
         }
     }
@@ -34,7 +34,7 @@ environments {
             pooled = true
             driverClassName = "org.postgresql.Driver"
             dialect = "org.hibernate.dialect.PostgreSQLDialect"
-            username = "postgres"
+            username = "Matt"
             password = "password"
         }
     }
@@ -45,7 +45,7 @@ environments {
             pooled = true
             driverClassName = "org.postgresql.Driver"
             dialect = "org.hibernate.dialect.PostgreSQLDialect"
-            username = "postgres"
+            username = "Matt"
             password = "password"
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
